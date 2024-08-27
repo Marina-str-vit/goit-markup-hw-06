@@ -2,10 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
       content="Learning the basics of HTML for beginners"
     />
+    
     <!-- modern-normalize -->
     <link
       rel="stylesheet"
@@ -30,7 +32,7 @@
 
   <body class="body">
     <!-- header page -->
-    <header class="page-header">
+   <header class="page-header">
       <div class="container header-container">
         <nav class="header-nav">
           <a class="logo header-logo" href="./index.html"
@@ -60,22 +62,36 @@
             </li>
           </ul>
         </address>
+        <button class="header-btn" type="button">
+          <svg class="header-icon-menu" width="24" height="24">
+            <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
+          </svg>
+        </button>
       </div>
-    </header>
-    
+
+      <div class="mobile-menu is-open">
+        <div class="container mobile-menu-container">
+          <button class="mobile-menu-close"></button>
+           <nav>stu</nav>
+           <address>*</address>
+           <div>soch link</div>
+        </div>
+      </div>
+    </header> 
+     
 
     <!-- main info -->
     <main class="page-main">
       <!-- section 1 -->
-      <section class="title">
+      <!-- <section class="title">
         <div class="container">
           <h1 class="title-head">Effective Solutions for Your Business</h1>
           <button class="title-button" type="button">Order Service</button>
         </div>
-      </section>
+      </section> -->
      
       <!-- section 2 and h2 is empty -->
-      <section class="feature">
+      <!-- <section class="feature-section">
         <div class="container">
           <h2 class="visually-hidden">Feature</h2>
           <ul class="feature-list">
@@ -129,10 +145,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
    
       <!-- section 3 -->
-      <section class="team">
+      <!-- <section class="team">
         <div class="container team-container">
           <h2 class="team-hide">Our Team</h2>
           <ul class="team-list">
@@ -306,10 +322,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       
       <!-- section 4 -->
-      <section class="portfolio">
+      <!-- <section class="portfolio">
         <div class="container">
           <h2 class="portfolio-hide">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -430,11 +446,11 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     
     </main>
 
-    <footer class="page-footer">
+    <!-- <footer class="page-footer">
       <div class="footer-box container">
         <div class="footer-container">
           <a class="logo footer-logo" href="./index.html"
@@ -493,10 +509,10 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
 
     <!-- modal form -->
-    <div class="backdrop is-open">
+    <!-- <div class="backdrop is-open">
       <div class="modal-window">
         <button class="modal-btn" type="button">
           <svg width="8" height="8" class="icon-close">
@@ -584,7 +600,7 @@
           <button class="modal-send" type="button">Send</button>
         </form>
       </div>
-    </div>
+    </div> -->
     <!-- /modal form -->
 
   </body>
