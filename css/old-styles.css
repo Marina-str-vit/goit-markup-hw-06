@@ -28,8 +28,7 @@ p {
   margin: 0;
 } */
 
-
-
+/* 
 .header-container {
   display: flex;
   align-items: center;
@@ -51,10 +50,9 @@ p {
 
 .header-logo .logo-part {
   color: #2e2f42;
-}
+} */
 
-
-
+/* 
 .nav-list .nav-link {
   display: block;
   padding: 24px 0;
@@ -69,9 +67,9 @@ p {
   font-style: normal;
   
 }
+ */
 
-
-
+/* 
 .contacts .contacts-link {
   display: block;
   padding: 24px 0;
@@ -88,14 +86,10 @@ p {
 .contacts-list .contacts-link:focus {
   color: #404bbf;
   text-decoration: underline;
-}
-
+} */
 
 .title {
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7)),
     url(../images/people-office.jpg);
   padding: 188px 0;
   max-width: 1440px;
@@ -267,7 +261,6 @@ p {
   color: #2e2f42;
   margin-bottom: 72px;
 }
-
 
 .team-item {
   border-radius: 0 0 4px 4px;
@@ -735,8 +728,9 @@ p {
   border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
-.checkbox[type="checkbox"]:checked
-  + .modal-privacy-checkbox > .checkbox-custom {
+.checkbox[type='checkbox']:checked
+  + .modal-privacy-checkbox
+  > .checkbox-custom {
   fill: #f4f4fd;
   border-color: none;
   background-color: #404bbf;
