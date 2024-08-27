@@ -87,7 +87,7 @@ p {
   color: #404bbf;
   text-decoration: underline;
 } */
-
+/* 
 .title {
   background-image: linear-gradient(rgba(46, 47, 66, 0.7)),
     url(../images/people-office.jpg);
@@ -142,7 +142,7 @@ p {
 } */
 
 /* h-2 invisible*/
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -153,9 +153,9 @@ p {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
-/* .feature-icon {
+/* .feature-item-border {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -166,17 +166,14 @@ p {
   margin-bottom: 8px;
 } */
 
-.feature-list,
+/* .feature-list,
 .team-list,
 .team-social-links_list {
   display: flex;
   gap: 24px;
 }
-
-.team-container {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
+ */
+/* 
 h2 {
   font-weight: 700;
   font-size: 36px;
@@ -190,9 +187,9 @@ p {
   font-weight: 400;
   line-height: 150%;
   letter-spacing: 0.02em;
-  /* color: #434455; */
-}
-.team-social-links_item {
+  color: #434455;
+} */
+/* .team-social-links_item {
   width: 40px;
   height: 40px;
 }
@@ -233,18 +230,12 @@ p {
 
 .feature-item_title {
   margin-bottom: 8px;
-}
+} */
 
 .feature-item_text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
-  color: #434455;
-  text-align: left;
 }
 
-.team {
+/* .team {
   text-transform: capitalize;
   text-align: center;
   background: #f4f4fd;
@@ -260,17 +251,6 @@ p {
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
-}
-
-.team-item {
-  border-radius: 0 0 4px 4px;
-  background-color: #ffffff;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-}
-
-.team-box {
-  padding: 32px 0;
 }
 
 .team-item_title {
@@ -308,9 +288,9 @@ p {
   background-color: #404bbf;
 }
 
-.footer-icon:hover {
+.team-icon:hover {
   fill: #fff;
-}
+} */
 
 .portfolio {
   text-transform: capitalize;
@@ -328,11 +308,6 @@ p {
   gap: 48px 24px;
 }
 
-.portfolio-list,
-.portfolio-item {
-  background-color: #ffffff;
-}
-
 .portfolio-item {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -340,7 +315,6 @@ p {
 .portfolio-item:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  /* transform: translateY(0%); */
 }
 
 .portfolio-pic {
