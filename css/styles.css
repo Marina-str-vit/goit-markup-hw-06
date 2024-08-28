@@ -387,13 +387,25 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office.jpg);
+    url(../images/title-background/main-bg-mob.jpg);
   padding: 72px 0;
   max-width: 320px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   margin: 0 auto;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 2dppx),
+  (min-resolution: 192dpi) {
+  .title {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/title-background/main-bg-mob-2x.jpg);
+  }
 }
 
 .title-head {
@@ -439,8 +451,24 @@ img {
   .title {
     padding: 112px 0;
     max-width: 768px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/title-background/main-bg-tab.jpg);
   }
 
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+    .title {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/title-background/main-bg-tab-2x.jpg);
+    }
+  }
   .title-head {
     min-width: 496px;
   }
@@ -457,6 +485,23 @@ img {
   .title {
     padding: 188px 0;
     max-width: 1440px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/title-background/main-bg.jpg);
+  }
+
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+    .title {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/title-background/main-bg-2x.jpg);
+    }
   }
 
   .title-head {
@@ -769,13 +814,13 @@ img {
 
 @media screen and (min-width: 768px) {
   .portfolio-item {
-    width: calc((100%-24px) / 2);
+    width: calc((100% - 24px) / 2);
   }
 }
 
 @media screen and (min-width: 1158px) {
   .portfolio-item {
-    width: calc((100%-48px) / 3);
+    width: calc((100% - 48px) / 3);
   }
 }
 
@@ -860,12 +905,6 @@ img {
     display: flex;
     text-align: start;
     margin: 0 auto;
-  }
-}
-
-@media screen and (min-width: 1158px) {
-  .header-container {
-    margin-right: 120px;
   }
 }
 
@@ -962,7 +1001,6 @@ img {
 @media screen and (max-width: 1157px) {
   .footer-subscribe {
     margin-top: 72px;
-    margin-bottom: 72px;
   }
 }
 
