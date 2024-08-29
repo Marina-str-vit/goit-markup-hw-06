@@ -613,13 +613,6 @@ img {
     font-weight: 400;
   }
 }
-
-.feature-item_text {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-}
-
 /* #endregion section 2 "feature" */
 
 /* #region section 3 team */
@@ -1125,11 +1118,11 @@ img {
   pointer-events: none;
 }
 
-/* .backdrop.is-open {
+.backdrop.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
-} */
+}
 
 .modal-window {
   position: absolute;
@@ -1280,18 +1273,17 @@ img {
 
 @media screen and (max-width: 1157px) {
   .modal-cont-checkbox {
-    margin-bottom: 24px;
-    width: 256px;
-    margin-left: auto;
     margin: auto;
   }
 }
 
 .modal-cont-checkbox {
   margin-bottom: 24px;
-  width: 256px;
 }
+
 .modal-privacy-checkbox {
+  display: flex;
+  font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -1301,6 +1293,8 @@ img {
 
 .checkbox-custom {
   margin-right: 8px;
+  margin-top: 7.5px;
+  margin-bottom: 7.5px;
   width: 16px;
   height: 16px;
   border-radius: 2px;
