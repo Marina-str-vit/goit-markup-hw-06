@@ -865,7 +865,7 @@ img {
 
 /* #region footer */
 .page-footer {
-  background: #2e2f42;
+  background-color: #2e2f42;
 }
 
 @media screen and (max-width: 1157px) {
@@ -1117,12 +1117,12 @@ img {
   visibility: hidden;
   pointer-events: none;
 }
-
+/* 
 .backdrop.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
-}
+} */
 
 .modal-window {
   position: absolute;
